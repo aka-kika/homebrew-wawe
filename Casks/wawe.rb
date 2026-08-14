@@ -14,7 +14,7 @@ cask "wawe" do
   end
 
   # macOS 26 Tahoe or newer.
-  depends_on macos: ">= :tahoe"
+  depends_on macos: :tahoe
 
   app "WAWE.app"
 
